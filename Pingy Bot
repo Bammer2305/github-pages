@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Discord Bot</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #2c2f33; color: white; }
+        h1 { color: #7289da; }
+        .container { padding: 20px; max-width: 600px; margin: auto; }
+        .button { background-color: #7289da; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 20px; }
+        .commands { margin-top: 30px; }
+        .commands ul { list-style: none; padding: 0; }
+        .commands li { background: #23272a; padding: 10px; margin: 5px 0; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Discord Bot</h1>
+        <p>A powerful bot for your Discord server!</p>
+        <a href="YOUR_BOT_INVITE_LINK" class="button" target="_blank">Invite Bot</a>
+        
+        <div class="commands">
+            <h2>Commands</h2>
+            <ul>
+                <li><b>!hello</b> - Greets the user</li>
+                <li><b>!ping</b> - Responds with Pong!</li>
+                <li><b>!help</b> - Shows help menu</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
